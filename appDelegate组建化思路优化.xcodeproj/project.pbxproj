@@ -15,6 +15,10 @@
 		EE47C20520CBB71800AB8BF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47C20420CBB71800AB8BF8 /* main.m */; };
 		EE47C20F20CBB71800AB8BF8 /* appDelegate_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47C20E20CBB71800AB8BF8 /* appDelegate_______Tests.m */; };
 		EE47C21A20CBB71800AB8BF8 /* appDelegate_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47C21920CBB71800AB8BF8 /* appDelegate_______UITests.m */; };
+		EE47C22D20CBB88100AB8BF8 /* PHIBaseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47C22920CBB88100AB8BF8 /* PHIBaseAppDelegate.m */; };
+		EE47C22E20CBB88100AB8BF8 /* PHIEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47C22B20CBB88100AB8BF8 /* PHIEngine.m */; };
+		EE47C23D20CBBB0F00AB8BF8 /* PHIAppConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47C23C20CBBB0F00AB8BF8 /* PHIAppConfigurator.m */; };
+		EE47C24020CBBCEC00AB8BF8 /* PHIBuglyConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47C23F20CBBCEC00AB8BF8 /* PHIBuglyConfigurator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54C640D50B6CF63384C2DDA7 /* Pods-appDelegate组建化思路优化.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appDelegate组建化思路优化.debug.xcconfig"; path = "Pods/Target Support Files/Pods-appDelegate组建化思路优化/Pods-appDelegate组建化思路优化.debug.xcconfig"; sourceTree = "<group>"; };
+		AF2A885BA1E162CDE0C6EDAA /* Pods_appDelegate_______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_appDelegate_______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF186E29166EA29BE256E3D7 /* Pods-appDelegate组建化思路优化.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appDelegate组建化思路优化.release.xcconfig"; path = "Pods/Target Support Files/Pods-appDelegate组建化思路优化/Pods-appDelegate组建化思路优化.release.xcconfig"; sourceTree = "<group>"; };
 		EE47C1F220CBB71800AB8BF8 /* appDelegate组建化思路优化.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "appDelegate组建化思路优化.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE47C1F520CBB71800AB8BF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE47C1F620CBB71800AB8BF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +58,15 @@
 		EE47C21520CBB71800AB8BF8 /* appDelegate组建化思路优化UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "appDelegate组建化思路优化UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE47C21920CBB71800AB8BF8 /* appDelegate_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "appDelegate_______UITests.m"; sourceTree = "<group>"; };
 		EE47C21B20CBB71800AB8BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE47C22820CBB88100AB8BF8 /* PHIBaseAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHIBaseAppDelegate.h; sourceTree = "<group>"; };
+		EE47C22920CBB88100AB8BF8 /* PHIBaseAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHIBaseAppDelegate.m; sourceTree = "<group>"; };
+		EE47C22A20CBB88100AB8BF8 /* PHIEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHIEngine.h; sourceTree = "<group>"; };
+		EE47C22B20CBB88100AB8BF8 /* PHIEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHIEngine.m; sourceTree = "<group>"; };
+		EE47C22C20CBB88100AB8BF8 /* PHIEngineDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHIEngineDelegate.h; sourceTree = "<group>"; };
+		EE47C23B20CBBB0F00AB8BF8 /* PHIAppConfigurator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHIAppConfigurator.h; sourceTree = "<group>"; };
+		EE47C23C20CBBB0F00AB8BF8 /* PHIAppConfigurator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHIAppConfigurator.m; sourceTree = "<group>"; };
+		EE47C23E20CBBCEC00AB8BF8 /* PHIBuglyConfigurator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHIBuglyConfigurator.h; sourceTree = "<group>"; };
+		EE47C23F20CBBCEC00AB8BF8 /* PHIBuglyConfigurator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHIBuglyConfigurator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +94,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19F224C63FB92758A615039B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF2A885BA1E162CDE0C6EDAA /* Pods_appDelegate_______.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EE47C1E920CBB71800AB8BF8 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +109,8 @@
 				EE47C20D20CBB71800AB8BF8 /* appDelegate组建化思路优化Tests */,
 				EE47C21820CBB71800AB8BF8 /* appDelegate组建化思路优化UITests */,
 				EE47C1F320CBB71800AB8BF8 /* Products */,
+				F405E3B16B685ECF7C8C964D /* Pods */,
+				19F224C63FB92758A615039B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +127,8 @@
 		EE47C1F420CBB71800AB8BF8 /* appDelegate组建化思路优化 */ = {
 			isa = PBXGroup;
 			children = (
+				EE47C22F20CBB88700AB8BF8 /* PHIAppConfigurator */,
+				EE47C22720CBB88100AB8BF8 /* PHIEngine */,
 				EE47C1F520CBB71800AB8BF8 /* AppDelegate.h */,
 				EE47C1F620CBB71800AB8BF8 /* AppDelegate.m */,
 				EE47C1F820CBB71800AB8BF8 /* ViewController.h */,
@@ -132,6 +160,78 @@
 			path = "appDelegate组建化思路优化UITests";
 			sourceTree = "<group>";
 		};
+		EE47C22720CBB88100AB8BF8 /* PHIEngine */ = {
+			isa = PBXGroup;
+			children = (
+				EE47C22820CBB88100AB8BF8 /* PHIBaseAppDelegate.h */,
+				EE47C22920CBB88100AB8BF8 /* PHIBaseAppDelegate.m */,
+				EE47C22A20CBB88100AB8BF8 /* PHIEngine.h */,
+				EE47C22B20CBB88100AB8BF8 /* PHIEngine.m */,
+				EE47C22C20CBB88100AB8BF8 /* PHIEngineDelegate.h */,
+			);
+			path = PHIEngine;
+			sourceTree = "<group>";
+		};
+		EE47C22F20CBB88700AB8BF8 /* PHIAppConfigurator */ = {
+			isa = PBXGroup;
+			children = (
+				EE47C23B20CBBB0F00AB8BF8 /* PHIAppConfigurator.h */,
+				EE47C23C20CBBB0F00AB8BF8 /* PHIAppConfigurator.m */,
+				EE47C23020CBB88700AB8BF8 /* PHIBugly */,
+				EE47C23120CBB88700AB8BF8 /* PHIMap */,
+				EE47C23220CBB88700AB8BF8 /* PHIUMengAnlyticsConfigurator */,
+				EE47C23320CBB88700AB8BF8 /* PHIUMengPush */,
+				EE47C23420CBB88700AB8BF8 /* PHIUMengShare */,
+			);
+			path = PHIAppConfigurator;
+			sourceTree = "<group>";
+		};
+		EE47C23020CBB88700AB8BF8 /* PHIBugly */ = {
+			isa = PBXGroup;
+			children = (
+				EE47C23E20CBBCEC00AB8BF8 /* PHIBuglyConfigurator.h */,
+				EE47C23F20CBBCEC00AB8BF8 /* PHIBuglyConfigurator.m */,
+			);
+			path = PHIBugly;
+			sourceTree = "<group>";
+		};
+		EE47C23120CBB88700AB8BF8 /* PHIMap */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PHIMap;
+			sourceTree = "<group>";
+		};
+		EE47C23220CBB88700AB8BF8 /* PHIUMengAnlyticsConfigurator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PHIUMengAnlyticsConfigurator;
+			sourceTree = "<group>";
+		};
+		EE47C23320CBB88700AB8BF8 /* PHIUMengPush */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PHIUMengPush;
+			sourceTree = "<group>";
+		};
+		EE47C23420CBB88700AB8BF8 /* PHIUMengShare */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PHIUMengShare;
+			sourceTree = "<group>";
+		};
+		F405E3B16B685ECF7C8C964D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54C640D50B6CF63384C2DDA7 /* Pods-appDelegate组建化思路优化.debug.xcconfig */,
+				BF186E29166EA29BE256E3D7 /* Pods-appDelegate组建化思路优化.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE47C21E20CBB71800AB8BF8 /* Build configuration list for PBXNativeTarget "appDelegate组建化思路优化" */;
 			buildPhases = (
+				992365ABBA2645BCC7280D4A /* [CP] Check Pods Manifest.lock */,
 				EE47C1EE20CBB71800AB8BF8 /* Sources */,
 				EE47C1EF20CBB71800AB8BF8 /* Frameworks */,
 				EE47C1F020CBB71800AB8BF8 /* Resources */,
@@ -200,6 +301,11 @@
 					EE47C1F120CBB71800AB8BF8 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					EE47C20920CBB71800AB8BF8 = {
 						CreatedOnToolsVersion = 9.2;
@@ -260,14 +366,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		992365ABBA2645BCC7280D4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appDelegate组建化思路优化-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE47C1EE20CBB71800AB8BF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE47C24020CBBCEC00AB8BF8 /* PHIBuglyConfigurator.m in Sources */,
 				EE47C1FA20CBB71800AB8BF8 /* ViewController.m in Sources */,
+				EE47C22E20CBB88100AB8BF8 /* PHIEngine.m in Sources */,
+				EE47C23D20CBBB0F00AB8BF8 /* PHIAppConfigurator.m in Sources */,
 				EE47C20520CBB71800AB8BF8 /* main.m in Sources */,
 				EE47C1F720CBB71800AB8BF8 /* AppDelegate.m in Sources */,
+				EE47C22D20CBB88100AB8BF8 /* PHIBaseAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,29 +559,35 @@
 		};
 		EE47C21F20CBB71800AB8BF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C640D50B6CF63384C2DDA7 /* Pods-appDelegate组建化思路优化.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6NT87KVZZ;
 				INFOPLIST_FILE = "appDelegate组建化思路优化/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "PHI.appDelegate-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
 		EE47C22020CBB71800AB8BF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF186E29166EA29BE256E3D7 /* Pods-appDelegate组建化思路优化.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6NT87KVZZ;
 				INFOPLIST_FILE = "appDelegate组建化思路优化/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "PHI.appDelegate-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};

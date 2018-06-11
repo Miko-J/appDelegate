@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "PHIEngine.h"
+#import "PHIBuglyConfigurator.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[PHIEngine shared] addReceiver:[PHIBuglyConfigurator defaultInstance]];
     return YES;
 }
 
