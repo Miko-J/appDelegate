@@ -11,6 +11,7 @@
 #import <Bugly/Bugly.h>
 // 组件化后可去掉，使用 config services 获取初始配置
 #import "PHIAppConfigurator.h"
+#import "NSObject+PHIDependencyInjection.h"
 
 @interface PHIBuglyConfigurator()
 
@@ -24,7 +25,7 @@
 - (instancetype)initWithParam:(NSDictionary *)dict {
     self = [super init];
     if (self) {
-        self.appKey = [dict objectForKey:@"appKey"];
+        [self injection:dict];
     }
     return self;
 }

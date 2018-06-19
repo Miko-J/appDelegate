@@ -20,6 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [[PHIEngine shared] addReceiver:[PHIBuglyConfigurator defaultInstance]];
+    [super application:application didFinishLaunchingWithOptions:launchOptions];
     return YES;
 }
 

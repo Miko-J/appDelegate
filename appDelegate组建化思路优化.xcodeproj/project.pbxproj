@@ -22,6 +22,7 @@
 		EE4A6BD820D2917400945C40 /* PHIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4A6BD720D2917400945C40 /* PHIConfig.m */; };
 		EE4A6BDE20D2968000945C40 /* PHIConfigService.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4A6BDD20D2968000945C40 /* PHIConfigService.m */; };
 		EE4A6BE120D29B3B00945C40 /* PHIColorConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE4A6BE020D29B3B00945C40 /* PHIColorConfig.plist */; };
+		EE6AEB1020D91C4A007C83E3 /* NSObject+PHIDependencyInjection.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6AEB0F20D91C4A007C83E3 /* NSObject+PHIDependencyInjection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,8 @@
 		EE4A6BDC20D2968000945C40 /* PHIConfigService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHIConfigService.h; sourceTree = "<group>"; };
 		EE4A6BDD20D2968000945C40 /* PHIConfigService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHIConfigService.m; sourceTree = "<group>"; };
 		EE4A6BE020D29B3B00945C40 /* PHIColorConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PHIColorConfig.plist; sourceTree = "<group>"; };
+		EE6AEB0E20D91C4A007C83E3 /* NSObject+PHIDependencyInjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PHIDependencyInjection.h"; sourceTree = "<group>"; };
+		EE6AEB0F20D91C4A007C83E3 /* NSObject+PHIDependencyInjection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PHIDependencyInjection.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +175,8 @@
 		EE47C22720CBB88100AB8BF8 /* PHIEngine */ = {
 			isa = PBXGroup;
 			children = (
+				EE6AEB0E20D91C4A007C83E3 /* NSObject+PHIDependencyInjection.h */,
+				EE6AEB0F20D91C4A007C83E3 /* NSObject+PHIDependencyInjection.m */,
 				EE47C22820CBB88100AB8BF8 /* PHIBaseAppDelegate.h */,
 				EE47C22920CBB88100AB8BF8 /* PHIBaseAppDelegate.m */,
 				EE47C22A20CBB88100AB8BF8 /* PHIEngine.h */,
@@ -426,6 +431,7 @@
 				EE4A6BDE20D2968000945C40 /* PHIConfigService.m in Sources */,
 				EE47C1FA20CBB71800AB8BF8 /* ViewController.m in Sources */,
 				EE47C22E20CBB88100AB8BF8 /* PHIEngine.m in Sources */,
+				EE6AEB1020D91C4A007C83E3 /* NSObject+PHIDependencyInjection.m in Sources */,
 				EE47C23D20CBBB0F00AB8BF8 /* PHIAppConfigurator.m in Sources */,
 				EE47C20520CBB71800AB8BF8 /* main.m in Sources */,
 				EE4A6BD820D2917400945C40 /* PHIConfig.m in Sources */,
