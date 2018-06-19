@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "PHIEngine.h"
 #import "PHIBuglyConfigurator.h"
+#import "PHIConfigService.h"
 @interface AppDelegate ()
 
 @end

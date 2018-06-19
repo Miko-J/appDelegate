@@ -7,6 +7,7 @@
 
 #import "PHIEngineDelegate.h"
 #import <Foundation/Foundation.h>
+#import "PHIAppConfigurator.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

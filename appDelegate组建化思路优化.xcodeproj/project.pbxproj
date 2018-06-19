@@ -19,6 +19,9 @@
 		EE47C22E20CBB88100AB8BF8 /* PHIEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47C22B20CBB88100AB8BF8 /* PHIEngine.m */; };
 		EE47C23D20CBBB0F00AB8BF8 /* PHIAppConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47C23C20CBBB0F00AB8BF8 /* PHIAppConfigurator.m */; };
 		EE47C24020CBBCEC00AB8BF8 /* PHIBuglyConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47C23F20CBBCEC00AB8BF8 /* PHIBuglyConfigurator.m */; };
+		EE4A6BD820D2917400945C40 /* PHIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4A6BD720D2917400945C40 /* PHIConfig.m */; };
+		EE4A6BDE20D2968000945C40 /* PHIConfigService.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4A6BDD20D2968000945C40 /* PHIConfigService.m */; };
+		EE4A6BE120D29B3B00945C40 /* PHIColorConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE4A6BE020D29B3B00945C40 /* PHIColorConfig.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,11 @@
 		EE47C23C20CBBB0F00AB8BF8 /* PHIAppConfigurator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHIAppConfigurator.m; sourceTree = "<group>"; };
 		EE47C23E20CBBCEC00AB8BF8 /* PHIBuglyConfigurator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHIBuglyConfigurator.h; sourceTree = "<group>"; };
 		EE47C23F20CBBCEC00AB8BF8 /* PHIBuglyConfigurator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHIBuglyConfigurator.m; sourceTree = "<group>"; };
+		EE4A6BD620D2917400945C40 /* PHIConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHIConfig.h; sourceTree = "<group>"; };
+		EE4A6BD720D2917400945C40 /* PHIConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHIConfig.m; sourceTree = "<group>"; };
+		EE4A6BDC20D2968000945C40 /* PHIConfigService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHIConfigService.h; sourceTree = "<group>"; };
+		EE4A6BDD20D2968000945C40 /* PHIConfigService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHIConfigService.m; sourceTree = "<group>"; };
+		EE4A6BE020D29B3B00945C40 /* PHIColorConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PHIColorConfig.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +135,7 @@
 		EE47C1F420CBB71800AB8BF8 /* appDelegate组建化思路优化 */ = {
 			isa = PBXGroup;
 			children = (
+				EE4A6BDF20D29B2500945C40 /* Resource */,
 				EE47C22F20CBB88700AB8BF8 /* PHIAppConfigurator */,
 				EE47C22720CBB88100AB8BF8 /* PHIEngine */,
 				EE47C1F520CBB71800AB8BF8 /* AppDelegate.h */,
@@ -177,6 +186,7 @@
 			children = (
 				EE47C23B20CBBB0F00AB8BF8 /* PHIAppConfigurator.h */,
 				EE47C23C20CBBB0F00AB8BF8 /* PHIAppConfigurator.m */,
+				EE4A6BD520D2915500945C40 /* PHIColorConfig */,
 				EE47C23020CBB88700AB8BF8 /* PHIBugly */,
 				EE47C23120CBB88700AB8BF8 /* PHIMap */,
 				EE47C23220CBB88700AB8BF8 /* PHIUMengAnlyticsConfigurator */,
@@ -221,6 +231,25 @@
 			children = (
 			);
 			path = PHIUMengShare;
+			sourceTree = "<group>";
+		};
+		EE4A6BD520D2915500945C40 /* PHIColorConfig */ = {
+			isa = PBXGroup;
+			children = (
+				EE4A6BD620D2917400945C40 /* PHIConfig.h */,
+				EE4A6BD720D2917400945C40 /* PHIConfig.m */,
+				EE4A6BDC20D2968000945C40 /* PHIConfigService.h */,
+				EE4A6BDD20D2968000945C40 /* PHIConfigService.m */,
+			);
+			path = PHIColorConfig;
+			sourceTree = "<group>";
+		};
+		EE4A6BDF20D29B2500945C40 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EE4A6BE020D29B3B00945C40 /* PHIColorConfig.plist */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		F405E3B16B685ECF7C8C964D /* Pods */ = {
@@ -344,6 +373,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE4A6BE120D29B3B00945C40 /* PHIColorConfig.plist in Resources */,
 				EE47C20220CBB71800AB8BF8 /* LaunchScreen.storyboard in Resources */,
 				EE47C1FF20CBB71800AB8BF8 /* Assets.xcassets in Resources */,
 				EE47C1FD20CBB71800AB8BF8 /* Main.storyboard in Resources */,
@@ -393,10 +423,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE47C24020CBBCEC00AB8BF8 /* PHIBuglyConfigurator.m in Sources */,
+				EE4A6BDE20D2968000945C40 /* PHIConfigService.m in Sources */,
 				EE47C1FA20CBB71800AB8BF8 /* ViewController.m in Sources */,
 				EE47C22E20CBB88100AB8BF8 /* PHIEngine.m in Sources */,
 				EE47C23D20CBBB0F00AB8BF8 /* PHIAppConfigurator.m in Sources */,
 				EE47C20520CBB71800AB8BF8 /* main.m in Sources */,
+				EE4A6BD820D2917400945C40 /* PHIConfig.m in Sources */,
 				EE47C1F720CBB71800AB8BF8 /* AppDelegate.m in Sources */,
 				EE47C22D20CBB88100AB8BF8 /* PHIBaseAppDelegate.m in Sources */,
 			);
