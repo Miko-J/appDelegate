@@ -44,7 +44,6 @@
 }
 
 #pragma mark - Notification
-
 - (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error {
     [PHIEngine.shared application:application didFailToRegisterForRemoteNotificationsWithError:error];
 }
@@ -117,15 +116,10 @@
     return [PHIEngine.shared application:application openURL:url sourceApplication:sourceApplication annotation:annotation];
 }
 
-//// iOS9 之后
-//- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(nonnull NSDictionary *)options {
-//    if (@available(iOS 9.0, *)) {
-//        return [PHIEngine.shared application:app openURL:url options:options];
-//    } else {
-//        // Fallback on earlier versions
-//        return NO;
-//    }
-//}
+// iOS9 之后
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(nonnull NSDictionary *)options {
+    return [PHIEngine.shared application:app openURL:url options:options];
+}
 
 #pragma mark - User Activity Continuation protocol adopted by UIApplication delegate
 // Called on the main thread as soon as the user indicates they want to continue an activity in your application. The NSUserActivity object may not be available instantly,

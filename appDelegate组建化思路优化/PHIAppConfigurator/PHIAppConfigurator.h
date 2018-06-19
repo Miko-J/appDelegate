@@ -32,7 +32,6 @@ typedef UIColor * _Nullable (^PHIColorConfigBlock)(NSString *key);
 
 @protocol ConfigServiceAPI <NSObject>
 @property (nonatomic, strong, readonly) id<ConfigAPI,ColorConfigApi> colorConfig;
--(NSDictionary *)configWithServiceName:(NSString *)serviceName;
 @end
 NS_ASSUME_NONNULL_END
 

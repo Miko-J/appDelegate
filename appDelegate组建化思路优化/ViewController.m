@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.view.backgroundColor = Color(@"B1");
+    self.view.backgroundColor = Color(@"B2");
 }
 
 

@@ -83,13 +83,6 @@
             ReferencedContainer = "container:appDelegate&#x7ec4;&#x5efa;&#x5316;&#x601d;&#x8def;&#x4f18;&#x5316;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = ""
-            value = ""
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
