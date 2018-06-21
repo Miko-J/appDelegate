@@ -34,13 +34,6 @@ NSString *const PHICOLOR_CONFIG_NAME = @"PHIColorConfig.plist";
     return defaultConfigService;
 }
 
-//#pragma mark - PHIEngineDelegate
-//+ (instancetype)defaultInstance {
-//    NSDictionary *dict = @{ @"colorConfig" : PHICOLOR_CONFIG_NAME };
-//    PHIConfigService *config = [[PHIConfigService alloc] initWithParam:dict];
-//    return config;
-//}
 
-//PHIRECEIVER_NAMEED();
 
 @end

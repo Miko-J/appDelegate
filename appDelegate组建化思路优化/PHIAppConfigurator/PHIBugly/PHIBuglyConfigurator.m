@@ -43,6 +43,7 @@ PHIRECEIVER_NAMEED();
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     dispatch_async(PHIEngine.shared.engineQuene, ^{
         [Bugly startWithAppId:self.appKey];
+        [PHIEngine.shared removeReceiver:self];
     });
     
     return NO;
