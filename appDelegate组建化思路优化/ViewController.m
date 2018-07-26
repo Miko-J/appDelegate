@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "PHIAppConfigurator.h"
 #import "PHIConfigService.h"
+#import "NJF_NetWorkTool.h"
 @interface ViewController ()
 
 @end
@@ -20,6 +21,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.view.backgroundColor = Color(@"B2");
+    
+    [NJF_NetWorkTool openLog];
 }
 
 
